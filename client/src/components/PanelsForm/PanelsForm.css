@@ -1,0 +1,29 @@
+.panels-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.panel {
+  width: 335px;
+  height: 185px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 6px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 8px;
+}
+
+.panel:nth-last-child(-n+2) {
+  height: 210px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
